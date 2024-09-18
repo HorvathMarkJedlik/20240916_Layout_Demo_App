@@ -15,6 +15,9 @@
           <li class="nav-item">
             <a class=" {{ request()->is('contacts') ? 'active' : '' }} nav-link" href="/contacts">Contacts</a>
           </li>
+          <li class="nav-item">
+            <a class=" {{ request()->is('contacts') ? 'active' : '' }} nav-link" href="/jobs">Jobs</a>
+          </li>
           <li class="nav-item dropdown">
           </li>
         </ul>

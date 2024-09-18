@@ -44,3 +44,4 @@ insert_final_newline = false
 2. .env fájl létrehozása(example másolata)
 3. php artisan key:generate
 4. php artisan migrate (yes)
+
