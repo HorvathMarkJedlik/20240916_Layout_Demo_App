@@ -4,7 +4,9 @@
     {{-- @dd($jobs); --}}
     <ul>
         @foreach ($jobs as $job)
-            <li>{{ $job['title'] }}</li>
+            <a href="/jobs/{{$job['id']}}">
+                <li>{{ $job['title'] }}</li>
+            </a>
         @endforeach
     </ul>
 </x-layout>
