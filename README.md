@@ -38,3 +38,6 @@ insert_final_newline = false
 
 ## Új komponens
 ```php artisan make:component component-name --view```
+
+# Klónozás utáni lépések
+1. composer u, i
