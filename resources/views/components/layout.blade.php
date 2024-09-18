@@ -14,12 +14,12 @@
     </style>
 </head>
 <body>
+    <x-nav></x-nav>
     <div class="container">
-        <div class="mt-4 p-5 bg-primary text-white rounded" >
+        <div class=" p-5 bg-primary text-white rounded" >
             <h1>{{ $title ?? "Home" }}</h1>
         </div>
     </div>
-    <x-nav></x-nav>
 
     <div class="mt-3" >{{$slot}}</div>
 
