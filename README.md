@@ -41,3 +41,6 @@ insert_final_newline = false
 
 # Klónozás utáni lépések
 1. composer u, i
+2. .env fájl létrehozása(example másolata)
+3. php artisan key:generate
+4. php artisan migrate (yes)
